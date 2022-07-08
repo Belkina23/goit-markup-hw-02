@@ -1,0 +1,139 @@
+/* основной цвет заголовков #212121 */
+/* основнной цвет текста #757575 */
+/* цвет акцента #2196F3 */
+/* цвет лого в шапке #000000
+   доп. цвет #FFFFFF */
+
+:root {
+    --h-text-color:#212121;
+    --p-text-color:#757575;
+    --accent-color:#2196F3;
+    --white-text-color:#FFFFFF;
+    --black-text-color:#000000;
+    --background-color:#2F303A;
+    --background:#E5E5E5;
+}
+
+/* BODY */
+.list {
+list-style: none;
+font-family: 'Roboto';
+font-style: normal;
+color: var(--p-text-color);
+
+}
+
+.titlehto {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+/* text-align: center; */
+letter-spacing: 0.03em;
+color: var(--h-text-color);
+}
+
+.nosee {
+    display: none;
+}
+
+.titilehtriecom {
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--h-text-color);
+}
+
+.titilehtrie {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--h-text-color);
+}
+
+.lictp {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--p-text-color);
+}
+
+
+/* HEADER */
+
+.logo {
+color: var(--black-text-color);
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.nav-menu .nav-link {
+    color:var(--h-text-color)
+}
+
+.nav-menu .nav-link.act {
+    color: var(--accent-color);
+}
+
+.nav-cont {
+    color: #757575;
+}
+
+.nav-cont:hover,
+.nav-cont:focus {
+    color: var(--accent-color);
+}
+
+/* HERO */
+
+.hero {
+    background: var(--background-color);
+}
+
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+  }
+
+  /* BUTTOM */
+
+  .button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--white-text-color);
+    background: var(--accent-color);
+width: 200px;
+height: 50px;
+  }
+
+  /* FOOTER */
+
+  .backcol {
+    background-color: var(--background-color);
+  }
