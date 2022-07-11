@@ -1,6 +1,7 @@
 /* основной цвет заголовков #212121 */
 /* основнной цвет текста #757575 */
 /* цвет акцента #2196F3 */
+/* Ховер кнопки #188CE8 */
 /* цвет лого в шапке #000000
    доп. цвет #FFFFFF */
    /* цвет фона герой и футер #2F303A */
@@ -11,6 +12,7 @@
     --h-text-color:#212121;
     --p-text-color:#757575;
     --accent-color:#2196F3;
+    --buttom-hover-color: #188CE8;
     --white-text-color:#FFFFFF;
     --black-text-color:#000000;
     --background-color:#2F303A;
@@ -35,7 +37,6 @@ color: var(--p-text-color);
 
 
 .titlehto {
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -45,7 +46,7 @@ color: var(--h-text-color);
 }
 
 .nosee {
-    position: absolute; 
+position: absolute; 
 width: 1px; 
 height: 1px; 
 margin: -1px; 
@@ -156,8 +157,14 @@ text-decoration: none;
     line-height: 30px;
     color: var(--white-text-color);
     background: var(--accent-color);
-width: 200px;
-height: 50px;
+    width: 200px;
+    height: 50px;
+  }
+
+  .button:hover,
+  .button:focus {
+    background: var(--buttom-hover-color);
+    
   }
 
 /* Особенности компании */
