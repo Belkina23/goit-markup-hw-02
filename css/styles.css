@@ -33,11 +33,11 @@
 /* BODY */
 
 body {
-    background-color: var(--white-color);
-    color: var(--text-color);
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-    font-size: 14px;
+  background-color: var(--white-color);
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 h2, h3 {
