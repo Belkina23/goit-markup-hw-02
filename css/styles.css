@@ -11,15 +11,15 @@
 */
 
 :root {
-    --h-text-color:#212121;
-    --text-color:#757575;
-    --white-color:#FFFFFF;
-    --hero-back-color:#2F303A;
-    --accent-color:#2196F3;
-    --button-accent-color:#188CE8;
-    --fot-con-text-color:rgba(255, 255, 255, 0.6);
-    --team-back-color:#F5F4FA;
-    --black-color: #000000;
+  --h-text-color:#212121;
+  --text-color:#757575;
+  --white-color:#FFFFFF;
+  --hero-back-color:#2F303A;
+  --accent-color:#2196F3;
+  --button-accent-color:#188CE8;
+  --fot-con-text-color:rgba(255, 255, 255, 0.6);
+  --team-back-color:#F5F4FA;
+  --black-color: #000000;
 }
 
 /* BODY */
@@ -143,7 +143,11 @@ background-color: var(--white-color);
 
  /* Страница Портфолио */
 
+.filtre {
+  background: var(--team-back-color);
+  border-radius: 4px;
 
+}
 
   /* FOOTER */
 
