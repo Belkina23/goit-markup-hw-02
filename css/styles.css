@@ -8,6 +8,10 @@
 Цвет почты/тел в подвале rgba(255, 255, 255, 0.6)
 Цвет фона Наша команда #F5F4FA
 Черный цвет #000000
+Тень кнопки в портфолио box-shadow:0px 3px 1px 
+rgba(0, 0, 0, 0.1), 
+0px 1px 2px rgba(0, 0, 0, 0.08), 
+0px 2px 2px rgba(0, 0, 0, 0.12);
 */
 
 :root {
@@ -20,6 +24,10 @@
   --fot-con-text-color:rgba(255, 255, 255, 0.6);
   --team-back-color:#F5F4FA;
   --black-color: #000000;
+  --box-shadow-color: 
+  0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 1px 2px rgba(0, 0, 0, 0.08), 
+  0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* BODY */
@@ -60,6 +68,13 @@ text-decoration: none;
     color: var(--accent-color);
 }
 
+.menu-nav {
+  font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
 .nav-menu .nav-link {
     color:var(--h-text-color);
 
@@ -71,7 +86,10 @@ text-decoration: none;
 
 .nav-cont {
     color:var(--text-color);
-
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .nav-cont:hover,
@@ -147,8 +165,19 @@ background-color: var(--white-color);
   background: var(--team-back-color);
   border-radius: 4px;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
+  box-shadow: var(--box-shadow-color);
+  cursor: pointer;
+}
 
+.portfolio-cart {
+  background: var(--white-color);
+}
+
+.filtre:hover,
+.filtre:focus {
+  background: var(--accent-color);
+  color: var(--white-color);
 }
 
   /* FOOTER */
