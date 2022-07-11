@@ -3,6 +3,9 @@
 /* цвет акцента #2196F3 */
 /* цвет лого в шапке #000000
    доп. цвет #FFFFFF */
+   /* цвет фона герой и футер #2F303A */
+   /* бэкграунд секции Наша команда #F5F4FA */
+   /* Цвет контактов в футере rgba(255, 255, 255, 0.6); */
 
 :root {
     --h-text-color:#212121;
@@ -12,16 +15,24 @@
     --black-text-color:#000000;
     --background-color:#2F303A;
     --background:#E5E5E5;
+    --team-background-color: #F5F4FA;
+    --nav-cont-footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
 /* BODY */
+body {
+    width: 1600px;
+    background: var(--background);
+    margin: 0 auto;
+}
+
 .list {
 list-style: none;
-font-family: 'Roboto';
 font-style: normal;
 color: var(--p-text-color);
 
 }
+
 
 .titlehto {
 font-style: normal;
@@ -70,6 +81,10 @@ color: var(--p-text-color);
 
 /* HEADER */
 
+.hdr {
+    background-color: var(--white-text-color);
+}
+
 .logo {
 color: var(--black-text-color);
 font-family: 'Raleway';
@@ -78,6 +93,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
+text-decoration: none;
 }
 
 .logo-web {
@@ -85,7 +101,9 @@ letter-spacing: 0.03em;
 }
 
 .nav-menu .nav-link {
-    color:var(--h-text-color)
+    color:var(--h-text-color);
+    text-decoration: none;
+
 }
 
 .nav-menu .nav-link.act {
@@ -94,6 +112,7 @@ letter-spacing: 0.03em;
 
 .nav-cont {
     color: #757575;
+    text-decoration: none;
 }
 
 .nav-cont:hover,
@@ -132,7 +151,23 @@ width: 200px;
 height: 50px;
   }
 
+/* Особенности компании */
+
+.company {
+    background-color: var(--white-text-color);
+}
+
+/* Чемы мы занимаемся */
+
+.doit {
+    background-color: var(--white-text-color);
+}
+
   /* Наша команда */
+
+ .team {
+    background-color: var(--team-background-color);
+ } 
 
 h3.name-com {
 line-height: 0;
@@ -142,4 +177,24 @@ line-height: 0;
 
   .backcol {
     background-color: var(--background-color);
+  }
+
+  .address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--white-text-color);
+  }
+
+  .footcolor {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--nav-cont-footer-text-color);
+    text-decoration: none;
   }
