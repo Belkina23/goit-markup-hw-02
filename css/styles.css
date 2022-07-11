@@ -185,6 +185,10 @@ text-decoration: none;
     background-color: var(--team-background-color);
  } 
 
+ .cart-team {
+background-color: var(--white-text-color);
+ }
+
 h3.name-com {
 line-height: 0;
 }
