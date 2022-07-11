@@ -18,3 +18,6 @@
 «A8» Код написан следуя руководству.
 
 
+<a class="link" target="_blank" href="https://goit.global">
+<img src="">
+</a>
