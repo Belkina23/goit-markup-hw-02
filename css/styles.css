@@ -180,6 +180,10 @@ background-color: var(--white-color);
   color: var(--white-color);
 }
 
+.portfolio-text {
+  color: var(--text-color);
+}
+
   /* FOOTER */
 
   .footer-section {
