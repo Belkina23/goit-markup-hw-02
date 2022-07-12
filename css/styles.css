@@ -158,6 +158,14 @@ letter-spacing: 0.02em;
 background-color: var(--white-color);
  }
 
+.cart-title {
+  text-align: center;
+}
+
+ .cart-text {
+  text-align: center;
+ }
+
 
  /* Страница Портфолио */
 
