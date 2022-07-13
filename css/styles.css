@@ -40,18 +40,6 @@ body {
   font-size: 14px;
 }
 
-h2, h3 {
-    color: var(--h-text-color);
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
 /* HEADER */
 
 .logo {
@@ -59,7 +47,7 @@ color: var(--black-color);
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 text-decoration: none;
 }
@@ -68,27 +56,45 @@ text-decoration: none;
     color: var(--accent-color);
 }
 
-.menu-nav {
+.header-nav {
   font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.menu-nav {
+  list-style: none;
+}
+
+.logo, .nav-link, .nav-cont {
+  text-decoration: none;
+}
+
+.menu-nav .nav-link {
+  color: var(--h-text-color);
 }
 
 .nav-menu .nav-link {
     color:var(--h-text-color);
+    list-style: none;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 
 }
 
-.nav-menu .nav-link.act {
+.menu-nav .nav-link.act {
     color: var(--accent-color);
+}
+
+.menu-nav-cont {
+  list-style: none;
 }
 
 .nav-cont {
     color:var(--text-color);
     font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -109,6 +115,7 @@ letter-spacing: 0.02em;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
   }
@@ -117,11 +124,12 @@ letter-spacing: 0.02em;
   .button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.5;
     color: var(--white-color);
     background: var(--accent-color);
     width: 200px;
     height: 50px;
+    letter-spacing: 0.06em;
   }
 
   .button:hover,
@@ -144,15 +152,56 @@ letter-spacing: 0.02em;
   overflow: hidden;
   }
 
+  .skils-com-lict {
+    list-style: none;
+  }
 
+.com-item-title {
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--h-text-color);
+}
+
+.com-item-text {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+  
 /* Чемы мы занимаемся */
 
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--h-text-color);
+}
+
+.work-list {
+  list-style: none;
+}
 
   /* Наша команда */
 
  .team {
     background-color: var(--team-back-color);
- } 
+ }
+ 
+ .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--h-text-color);
+ }
+
+ .team-list {
+  list-style: none;
+ }
 
  .cart-team {
 background-color: var(--white-color);
@@ -160,26 +209,37 @@ background-color: var(--white-color);
 
 .cart-title {
   text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--h-text-color);
 }
 
  .cart-text {
   text-align: center;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
  }
 
 
  /* Страница Портфолио */
 
+.menu-btn-list {
+  list-style: none;
+}
+
 .filtre {
+  text-align: center;
+  letter-spacing: 0.03em;
   background: var(--team-back-color);
   border-radius: 4px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   box-shadow: var(--box-shadow-color);
   cursor: pointer;
-}
-
-.portfolio-cart {
-  background: var(--white-color);
 }
 
 .filtre:hover,
@@ -188,8 +248,28 @@ background-color: var(--white-color);
   color: var(--white-color);
 }
 
+.portfolio-cart {
+  background: var(--white-color);
+  list-style: none;
+}
+
+.cart-link {
+  text-decoration: none;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--h-text-color);
+}
+
 .portfolio-text {
   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
   /* FOOTER */
@@ -201,13 +281,20 @@ background-color: var(--white-color);
 
 .contact-footer {
   font-style: normal;
+  list-style: none;
 }
+
+.address, .footer-cont {
+  text-decoration: none;
+} 
 
 .footer-studio {
   color: var(--white-color);
 }
 
   .address {
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--white-color);
   }
 
@@ -217,6 +304,8 @@ background-color: var(--white-color);
 }
 
   .footer-cont {
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--fot-con-text-color);
 }
 
