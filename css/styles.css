@@ -239,7 +239,6 @@ background-color: var(--white-color);
   font-size: 16px;
   line-height: 1.62;
   box-shadow: var(--box-shadow-color);
-  cursor: pointer;
 }
 
 .filtre:hover,
